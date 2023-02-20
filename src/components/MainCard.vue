@@ -1,4 +1,6 @@
 <template>
+<div class="wrapper">
+
     <div class="main-container">
         
 
@@ -61,6 +63,7 @@
         </div>
 
     </div>
+</div>
 </template>
 
 
@@ -75,6 +78,13 @@ export default {
 
 
 <style scoped>
+.wrapper{
+    display: flex;
+    justify-content: center;
+   
+    
+}
+
  img{
     height: 20px;
  }
@@ -84,7 +94,10 @@ export default {
         display: flex;
         flex-direction: row;
         background-color: #ac179b;
+        background-color: blue;
         border-radius: 25px;
+        width: 60%;
+        
 
     } 
 
@@ -98,7 +111,9 @@ export default {
 
     .container-two{
         background-color: purple;
+        margin: 2.5%;
         width: 60%;
+
 
     }
 
@@ -139,7 +154,7 @@ export default {
     }
 
     .project-button{
-        background-color: #ac179b;
+        background-color: #f20ad7;
         margin: 5px;
         padding: 5px;
         border-radius: 15px;
@@ -149,6 +164,15 @@ export default {
     .project-button a{
         text-decoration: none;
         color: grey;
+    }
+
+
+    @media only screen and (max-width: 950px) {
+        .main-container{
+            
+            width: 90%;
+        }
+        
     }
 
 
