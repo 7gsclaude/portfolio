@@ -50,11 +50,11 @@
                 </div>
             </div>
             <div class="button-container">
-                <div class="project-buttons">
+                <div class="project-button">
                     <a href="">My Projects</a>
                     
                 </div>
-                <div class="project-buttons">
+                <div class="project-button">
                     <a href="">My Resume</a>
                 </div>
             </div>
@@ -131,13 +131,14 @@ export default {
 
 
     .button-container{
+        margin-top: 5%;
         display: flex;
         flex-direction: row;
         justify-content: center;
         align-items: center;
     }
 
-    .projects-button{
+    .project-button{
         background-color: #ac179b;
         margin: 5px;
         padding: 5px;
@@ -145,7 +146,7 @@ export default {
         
     }
 
-    .projects-button a{
+    .project-button a{
         text-decoration: none;
         color: grey;
     }
