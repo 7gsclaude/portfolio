@@ -10,18 +10,35 @@
         </div>
     </div>
 </div>
+
+<div>
+    <button @click="GetProjects">Click</button>
+</div>
+
+
 </template>
 
 
 
 <script>
 import jsonData from '/projects.json'
-
+import axios from "axios"
 export default {
 
     data() {
         return {
-            projectData: jsonData
+            projectData: jsonData,
+            lambdaReturnData: {}
+        }
+    },
+    methods: {
+        GetProjects() {
+            axios.get("https://aghi0wv4xh.execute-api.us-east-1.amazonaws.com/items").then(response => {
+                console.log(response);
+                this.lambdaReturnData = response.data;
+            }).catch(error => {
+                console.log(error);
+            })
         }
     }
 }

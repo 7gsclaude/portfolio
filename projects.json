@@ -11,11 +11,11 @@
 
        
     }, {
-        "Id": 2,
-        "Title": "Project Two",
-        "About": "This is project two",
-        "Image": "http://www.example.com/image.jpg",
-        "Link": "http://www.example.com"
+        "id": 2,
+        "title": "Project Two",
+        "about": "This is project two",
+        "image": "http://www.example.com/image.jpg",
+        "link": "http://www.example.com"
     }
 ] 
 }
