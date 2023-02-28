@@ -15,7 +15,7 @@
     <button @click="GetProjects">Click</button>
 </div>
 
-
+{{ lambdaReturnData }}
 </template>
 
 

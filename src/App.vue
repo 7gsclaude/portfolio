@@ -3,21 +3,26 @@
 <template>
   <header>
     <img alt="Vue logo" class="logo" src="./assets/logo.svg" width="125" height="125" />
-
-    <div>
-      <MainCard />
-      <ProjectCard/>
-    
-
-    </div>
+    <nav class="links">
+      <div>
+        <router-link class="router-link" to="/">home</router-link> |
+        <router-link class="router-link" to="/post-project">Projects</router-link> |
+        <router-link class="router-link" to="/contact">contact</router-link>
+      </div>
+    </nav>
   </header>
+  <router-view/>
 </template> 
+<!-- 
+<script setup>
 
-<script>
+</script> -->
+
+<!-- <script>
 
 
 
-
+import { RouterView } from "vue-router"
 import MainCard from "./components/MainCard.vue"
 import ProjectCard from "./components/ProjectCard.vue"
 ///above are imports
@@ -29,10 +34,11 @@ export default {
 
     MainCard,
     ProjectCard,
+    RouterView
   }
 }
 
-</script>
+</script> -->
 
 
 <style>
