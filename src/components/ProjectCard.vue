@@ -23,11 +23,7 @@
         </div>
     </div>
 
-<div>
-    <button @click="GetProjects">Click</button>
-</div>
 
-{{ lambdaReturnData.Items }}
 </template>
 
 
