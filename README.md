@@ -1,29 +1,13 @@
 # portfolio_vue_final
 
-This template should help get you started developing with Vue 3 in Vite.
+## Some notes about my portfolio
 
-## Recommended IDE Setup
+## 
+This is some of the acclumulation of my knowlegde in GA
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
+## 
+I set up a backend with AWS, and created this portfolio using vue.  
 
-## Customize configuration
 
-See [Vite Configuration Reference](https://vitejs.dev/config/).
 
-## Project Setup
 
-```sh
-npm install
-```
-
-### Compile and Hot-Reload for Development
-
-```sh
-npm run dev
-```
-
-### Compile and Minify for Production
-
-```sh
-npm run build
-```
