@@ -11,11 +11,23 @@
     </div>
 </div>
 
+    <div class="main-container">
+        
+        <div class="project-card" v-for="(items, index) in lambdaReturnData.Items" v-bind:key="items">
+            <h2>{{ lambdaReturnData.Items[index].title }}</h2>
+            <img :src="lambdaReturnData.Items[index].image" alt="">
+            <p>{{ lambdaReturnData.Items[index].about }}</p>
+            <div class="links">
+                <a :href="lambdaReturnData.Items[index].link"><img src="../assets/acro1.png" alt="click on this acro for github">Click the coral for Github</a>
+            </div>
+        </div>
+    </div>
+
 <div>
     <button @click="GetProjects">Click</button>
 </div>
 
-{{ lambdaReturnData }}
+{{ lambdaReturnData.Items }}
 </template>
 
 
@@ -35,11 +47,14 @@ export default {
         GetProjects() {
             axios.get("https://aghi0wv4xh.execute-api.us-east-1.amazonaws.com/items").then(response => {
                 console.log(response);
-                this.lambdaReturnData = response.data;
+                this.lambdaReturnData.Items = response.data;
             }).catch(error => {
                 console.log(error);
             })
         }
+    },
+    mounted() {
+        this.GetProjects();
     }
 }
 </script>
