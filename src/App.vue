@@ -2,7 +2,9 @@
 
 <template>
   <header>
-    <img alt="Vue logo" class="logo" src="./assets/logo.svg" width="125" height="125" />
+    <div class="logo">
+    <img alt="cover image"  src="./assets/coverimage.jpeg" />
+    </div>
     <nav class="links">
       <div>
         <router-link class="router-link" to="/">home</router-link> |
@@ -53,5 +55,10 @@ export default {
 
 }
 
+.logo img {
+  width: 100%;
+  height: 100%;
+ 
+}
 
 </style>
