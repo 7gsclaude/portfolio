@@ -37,27 +37,32 @@
         <div class="container-two">
             <div class="aboutme">
                 <h1>About Me</h1>
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit
-                    . Quod tenetur ex itaque qui consequatur ab incidunt adipisci 
-                    illo autem culpa? Similique repellendus ratione, aperiam maxime 
-                    error neque tempora ex quia!</p>
+                <p>I love the ocean and technology. These two are things that have always facinated me and drawn my attentionn after learning in GA's bootcamp. I want to encorperate the ocean and technology as much as possible, its something really important to me. </p>
             </div>
             <div class="technology-section">
-                <h1>Technologies Studiedd</h1>
+                <h1>Technologies Studied</h1>
                   <div class="logos">
                     <img src="../assets/javascripticon.png" alt="">
                     <img src="../assets/python.png" alt="">
                     <img src="../assets/node_expresslogo.jpeg" alt="">
+                    
+                    <img src="../assets/reactlogo.png" alt="">
+                    <img src="../assets/html5.jpg" alt="">
+                    <img src="../assets/css3.png" alt="">
+                    <img src="../assets/mongodb.png" alt="">
+                    <img src="../assets/aws.png" alt="">
+                
+
 
                 </div>
             </div>
             <div class="button-container">
                 <div class="project-button">
-                    <a href="">My Projects</a>
+                    <a href="/project">My Projects</a>
                     
                 </div>
                 <div class="project-button">
-                    <a href="">My Resume</a>
+                    <a href="/resume">My Resume</a>
                 </div>
             </div>
         </div>
@@ -113,9 +118,11 @@ export default {
         background-color: purple;
         margin: 2.5%;
         width: 60%;
+        color: black;
 
 
     }
+   
 
     .profile img{
         height: 5rem;

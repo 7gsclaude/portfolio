@@ -9,7 +9,8 @@
       <div>
         <router-link class="router-link" to="/">home</router-link> |
         <router-link class="router-link" to="/project">Projects</router-link> |
-        <router-link class="router-link" to="/about">About</router-link>
+        <router-link class="router-link" to="/about">About</router-link> |
+        <router-link class="router-link" to="/resume">Resume</router-link>
       </div>
     </nav>
   </header>

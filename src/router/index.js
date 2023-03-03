@@ -3,6 +3,7 @@ import About from "../views/About.vue";
 import PostProject from "../components/PostProject.vue";
 import MainCard from "../components/MainCard.vue";
 import ProjectCard from "../components/ProjectCard.vue";
+import ResumeCard from "../components/ResumeCard.vue";
 
 
    
@@ -11,6 +12,7 @@ import ProjectCard from "../components/ProjectCard.vue";
       { path: "/about", name: "about", component: About },
       { path: "/post-project", name: "post-project", component: PostProject },
       { path: "/project", name: "project", component: ProjectCard },
+      { path: "/resume", name: "resume", component: ResumeCard },
     ];
 
     const router = createRouter({
