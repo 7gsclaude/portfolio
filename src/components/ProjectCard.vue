@@ -1,6 +1,6 @@
 <template>
-<div class="main-container">
-    <!-- {{ projectData.ProjectsArray }} this shows my json data -->
+<!-- <div class="main-container">
+    {{ projectData.ProjectsArray }} this shows my json data 
     <div class="project-card" v-for="(items, index) in projectData.ProjectsArray" v-bind:key="items">
         <h2>{{ projectData.ProjectsArray[index].Title }}</h2>
         <img :src="projectData.ProjectsArray[index].Image" alt="">
@@ -9,7 +9,7 @@
             <a :href="projectData.ProjectsArray[index].Link"><img src="../assets/acro1.png" alt="click on this acro for github">Click the coral for Github</a>
         </div>
     </div>
-</div>
+</div> -->
 
     <div class="main-container">
         
@@ -17,8 +17,11 @@
             <h2>{{ lambdaReturnData.Items[index].title }}</h2>
             <img :src="lambdaReturnData.Items[index].image" alt="">
             <p>{{ lambdaReturnData.Items[index].about }}</p>
+            <div class="coral_image">
+                <img src="../assets/acro1.png" alt="click on this acro for github">
+            </div>
             <div class="links">
-                <a :href="lambdaReturnData.Items[index].link"><img src="../assets/acro1.png" alt="click on this acro for github">Click the coral for Github</a>
+                <a :href="lambdaReturnData.Items[index].link">Click for the Live Website</a>
             </div>
         </div>
     </div>
