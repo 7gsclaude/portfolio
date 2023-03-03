@@ -1,10 +1,11 @@
 @import './base.css';
 
 #app {
-  max-width: 1280px;
+  max-width: 1225px;
+  max-height: 844px;
   margin: 0 auto;
   padding: 2rem;
-
+ 
   font-weight: normal;
 }
 
@@ -27,9 +28,6 @@ a,
     place-items: center;
   }
 
-  .coral-images {
-    
-  }
 
   #app {
     display: grid;

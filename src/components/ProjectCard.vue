@@ -68,6 +68,8 @@ export default {
     justify-content: center;
     flex-wrap: wrap;
     align-items: center;
+    margin-top: 10px;
+    
 }
 
 .project-card{

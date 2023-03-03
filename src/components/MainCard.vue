@@ -87,7 +87,7 @@ export default {
     display: flex;
     justify-content: center;
    
-    
+    max-height: 600px;
 }
 
  img{
@@ -101,7 +101,7 @@ export default {
         background-color: #ac179b;
         background-color: blue;
         border-radius: 25px;
-        width: 60%;
+        width: 80%;
         
 
     } 
@@ -119,7 +119,8 @@ export default {
         margin: 2.5%;
         width: 60%;
         color: black;
-
+        border-radius: 25px;
+        
 
     }
    
@@ -170,14 +171,20 @@ export default {
 
     .project-button a{
         text-decoration: none;
-        color: grey;
+        color: green;
+        font-weight: bold;
+        text-shadow: 5px 5px 5px black, 0 0 1em blue, 0 0 0.2em blue;
+        font-weight: bold;
+
+    
     }
 
 
     @media only screen and (max-width: 950px) {
         .main-container{
             
-            width: 90%;
+            width: 100%;
+            height: 100%;
         }
         
     }
