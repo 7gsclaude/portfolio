@@ -18,6 +18,12 @@
 
   </header>
   <router-view/>
+
+
+
+
+
+
 </template> 
 
 
@@ -41,3 +47,5 @@
 }
 
 </style>
+
+TODO fix caraousel 
