@@ -13,20 +13,20 @@
             </div>
             <div class="social-links">
                 <div class="link">
-                        <a href="">
+                        <a href="https://github.com/7gsclaude">
                             <h2>Github</h2>
                             <img src="../assets/github.png" alt="">
                         </a>
                     </div>
                     <div class="link">
-                        <a href="">
+                        <a href="https://www.linkedin.com/in/7gsclaude-claude-allen-software/">
                             <h2>LinkedIn</h2>
                             <img src="../assets/linkedin.png" alt="">
                         </a>
                     </div>
 
                     <div class="link">
-                        <a href="">
+                        <a href="https://www.instagram.com/7gsreef/?hl=en">
                             <h2>Instagram</h2>
                             <img src="../assets/instagram-icon-small.jpeg" alt="">
                         </a>
