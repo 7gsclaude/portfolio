@@ -37,7 +37,7 @@
         <div class="container-two">
             <div class="aboutme">
                 <h1>About Me</h1>
-                <p>I love the ocean and technology. These two are things that have always facinated me and drawn my attentionn after learning in GA's bootcamp. I want to encorperate the ocean and technology as much as possible, its something really important to me. </p>
+                <p>I love the ocean and technology. These two are things that have always facinated me and drawn my attentionn since I was yonug. I want to encorperate the ocean and technology as much as possible, it's something really important to me. </p>
             </div>
             <div class="technology-section">
                 <h1>Technologies Studied</h1>
@@ -58,12 +58,12 @@
             </div>
             <div class="button-container">
                 <div class="project-button">
-                    <a href="/project">My Projects</a>
-                    
+                    <router-link class="router-link" to="/project">My Projects</router-link>
                 </div>
                 <div class="project-button">
-                    <a href="/resume">My Resume</a>
+                   <router-link class="router-link" to="/resume">My Resume</router-link>
                 </div>
+                
             </div>
         </div>
 
@@ -141,8 +141,8 @@ export default {
         height: 2rem;
     }
 
-    .aboutme{
-        text-align: left;
+    .aboutme h1 p {
+        text-align: center;
         margin: 2.5%;
         width:70%
     }

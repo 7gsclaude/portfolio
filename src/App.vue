@@ -15,6 +15,12 @@
       </div>
     </nav>
 
+<div class="image-box">
+
+  
+</div>
+
+
 
   </header>
   <router-view/>
@@ -48,4 +54,3 @@
 
 </style>
 
-TODO fix caraousel 

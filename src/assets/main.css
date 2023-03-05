@@ -28,10 +28,11 @@ a,
     place-items: center;
   }
 
-
+/* 
   #app {
     display: grid;
     grid-template-columns: 1fr 1fr;
     padding: 0 2rem;
-  }
+   TODO we can edit this once i have the carousel up and going. It needs to be placed in the header in order for my idea to work. or in another coloumn.
+  } */
 }
