@@ -37,7 +37,7 @@
         <div class="container-two">
             <div class="aboutme">
                 <h1>About Me</h1>
-                <p>I love the ocean and technology. These two are things that have always facinated me and drawn my attentionn since I was yonug. I want to encorperate the ocean and technology as much as possible, it's something really important to me. </p>
+                <p>I love the ocean and technology. These two are things that have always fascinated me and drawn my attention since I was young. I want to incorporate the ocean and technology as much as possible, it's something really important to me.</p>
             </div>
             <div class="technology-section">
                 <h1>Technologies Studied</h1>
