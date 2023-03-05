@@ -42,15 +42,15 @@
             <div class="technology-section">
                 <h1>Technologies Studied</h1>
                   <div class="logos">
-                    <img src="../assets/javascripticon.png" alt="">
+                    <img src="https://cdn-icons-png.flaticon.com/512/5968/5968292.png" alt="">
                     <img src="../assets/python.png" alt="">
-                    <img src="../assets/node_expresslogo.jpeg" alt="">
+                    <img src="https://cdn-icons-png.flaticon.com/512/919/919825.png" alt="">
                     
-                    <img src="../assets/reactlogo.png" alt="">
-                    <img src="../assets/html5.jpg" alt="">
-                    <img src="../assets/css3.png" alt="">
-                    <img src="../assets/mongodb.png" alt="">
-                    <img src="../assets/aws.png" alt="">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/2300px-React-icon.svg.png" alt="">
+                    <img src="https://cdn.pixabay.com/photo/2017/08/05/11/16/logo-2582748_1280.png" alt="">
+                    <img src="https://cdn-icons-png.flaticon.com/512/5968/5968242.png" alt="">
+                    <img src="https://cyclr.com/wp-content/uploads/2022/03/ext-553.png" alt="">
+                    <img src="https://cdn.iconscout.com/icon/free/png-256/aws-1869025-1583149.png" alt="">
                 
 
 
