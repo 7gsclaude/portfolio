@@ -149,6 +149,7 @@ export default {
 
     .logos img{
         height: 2.5rem;
+        margin: 1.5%;
 
     }
 
