@@ -2,7 +2,7 @@
     <div>
 <div class="main-container">
         <h1>Resume Page</h1>
-        <img src="/src/assets/resumeMarch2023.png" alt="">
+        <img src="/src/assets/2023marchresumeupdate.png" alt="">
     </div>
 </div>
 </template>
