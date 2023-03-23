@@ -37,7 +37,7 @@
         <div class="container-two">
             <div class="aboutme">
                 <h1>About Me</h1>
-                <p>I love the ocean and technology. These two are things that have always fascinated me and drawn my attention since I was young. Incorporating them as much as possible is something that has always been important to me. When I was younger, I worked on modding consoles, as well as went on diving and fishing with my family. These two things have always been distant yet intertwined in some manner.</p>
+                <p>I love the ocean and technology. These two are things that have always fascinated me and drawn my attention since I was young. Incorporating them as much as possible is something that has always been important to me. When I was younger, I worked on modding consoles, as well as went diving and fishing trips with my family. These two things have always been distant yet intertwined in some manner.</p>
             </div>
             <div class="technology-section">
                 <h1>Technologies Studied</h1>
